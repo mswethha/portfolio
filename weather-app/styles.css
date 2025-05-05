@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body{
+    background-image: url('weatherimage.avif');
+    height: 100vh;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+main{
+    background-color:#6fa3d1;
+    position: relative;
+    top: 30%;
+    border-radius: 5px;
+    min-width: 540px;
+    max-width: 50%;
+    height:50%;
+    margin: auto;
+    padding: 2em;
+}
+h1 {
+    margin-bottom: 20px;
+  }
+  #search{
+    padding:1em 7em;
+    border-radius: 5px;
+    border: none;
+    background-color: #ffffff;
+    font-size: 14px;
+    color:#083760;
+  }
+  #submit{
+    padding:1em 2em;
+    border-radius:5px;
+    border-color: #6fa3d1;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #6fa3d1;
+    font-size: 14px;
+  }

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css"></link>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><span>Swethha </span>Muralidharan</a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+
+        </nav>
+        <a href="#contact" class="Contact">Contact Me</a>
+    </header>
+    <section  id ="home" class="home">
+        <div class="home-content">
+            <h3>Hi</h3>
+            <h1>I'm <span>Swethha,</span>
+                a Front-end Developer</h1>
+            <p>dedicated to crafting visually appealing and user-friendly web experiences.<br>
+                 I specialize in HTML, CSS, JavaScript, and modern frameworks like React.<br> 
+                 My goal is to build seamless, responsive, and interactive websites that leave a lasting impression</p>
+            <div class="btn-box">
+                    <a class="btn-1" style="margin-right: 1em;" href="resume/DOC-20250318-WA0066..pdf" target="_blank">
+                        Resume
+                    </a>
+                    <a href="#projects" class="btn-2">
+                        Projects
+                    </a>
+            </div>
+        </div>
+        <div  class="img-box">
+           <img  src="giphy.gif" alt="">
+        </div>
+    </section>
+    <section  id="about" class="about">
+        <img src="giphy.gif" alt="">
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <p id="about-p">👋 Hey there! I'm <span>Swethha</span>, a passionate Full Stack Developer with a strong foundation in Java, web development, and problem-solving.
+                 I love turning complex problems into simple, elegant, and efficient solutions. 
+                 Whether it's crafting a beautiful UI or optimizing backend performance, I enjoy every step of the development process.</p>
+            <h3>Why Front-end Development?</h3> 
+            <p id="about-p"> I love the versatility of being a Full Stack Developer—being able to work on both the frontend and backend gives me complete control over my projects. 
+                I enjoy creating seamless user experiences, optimizing performance, and learning new technologies that improve efficiency.</p>
+            <a href="#projects" class="btn-2">Projects</a>
+        </div>
+    </section>
+        <section id="projects"  class="projects">
+            <div class="project1">
+                <a href="https://www.figma.com/proto/EiHR8JgDW1Zj0PC5ES39Ed/focus-app?node-id=18-113&starting-point-node-id=18%3A113&t=E0RoRtIGeg4PS9l4-1" target="_blank">
+                    <div class="figma_img">
+                        <img src="image.png" alt="figma project">
+                    </div>
+                </a>    
+            </div>
+            <div class="project2">
+                <img src="lms.png" alt="Learning Management System ">
+            </div>
+            <div class="project3">
+                <a href="weather-app/index.html" target="_blank">
+                    <div class="weather img">
+                        <img src="weather.png" alt="weather app">
+                    </div>
+                </a>
+            </div>
+        </section>
+    <section id="contact" class="contact-form">
+            <h2 class="contact-me">
+                Contact <span>Me</span>
+            </h2>
+            <form action="https://formsubmit.co/8f29426c3879747cc918e807a1c694c2" method="POST">
+                <input type="hidden" name="_template" value="table">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/app.html">
+              
+                <div class="input-box"> 
+                    <svg width="100" height="100" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2 4 L22 4 L22 20 L2 20 Z" stroke="#A259FF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M2 4 L12 13 L22 4" stroke="#A259FF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M5 10 L8 13" stroke="#A259FF" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M19 10 L16 13" stroke="#A259FF" stroke-width="2" stroke-linecap="round"/>
+                        <circle cx="18" cy="16" r="0.5" fill="#A259FF"/>
+                        <circle cx="16" cy="15" r="0.5" fill="#A259FF"/>
+                        <circle cx="17" cy="17" r="0.5" fill="#A259FF"/>
+                      </svg>     
+                  <div class="form-fields">
+                    <input type="text" name="name" placeholder="Full Name" required>
+                    <input type="email" name="email" placeholder="mswethha@gmail.com" required>
+                    <input type="number" name="phonenumber" placeholder="XXXXX-XXXXX" required>
+                    <input type="text" name="subject" placeholder="subject" required>
+                    <textarea id="textmsg" name="message" rows="10" cols="38" placeholder="Your Message" required></textarea>
+                    <button class="btn-1" style="margin-left: 1.5em;">Send Message</button>
+                  </div>
+                </div>
+              </form>
+              <p id="successMessage" style="display:none; color:rgb(57, 28, 116); font-weight:bold; margin-top:10px;">
+                 Thank you! Your message has been sent.
+              </p>          
+    </section>
+    <footer>
+        <h2><span><span style="color: white;">Let's</span> Connect:</span></h2>
+        <div class="info">
+            <a href="https://www.linkedin.com/in/swethha-muralidharan-70390325b/" target="_blank" ><i class="fa-brands fa-linkedin fa-2x"></i></a>
+            <a href="https://github.com/mswethha" target="_blank" ><i class="fa-brands fa-github fa-2x"></i></a>
+            <a href="mailto:mswethha@gmail.com" ><i class="fas fa-envelope fa-2x"></i></i></a>
+            <a href="https://www.hackerrank.com/profile/mswethha" target="_blank"><i class="fas fa-code fa-2x"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
