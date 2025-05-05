@@ -312,3 +312,92 @@ input[type="number"] {
     color: aliceblue;
     transform: 0.5s;
   }
+/* For tablets and small desktops */
+@media (max-width: 1024px) {
+  .home, .about {
+    flex-direction: column;
+    text-align: center;
+    gap: 2em;
+    height: auto;
+    padding: 100px 5% 0;
+  }
+
+  .img-box img, .about img {
+    width: 300px;
+  }
+
+  .projects {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header {
+    flex-wrap: wrap;
+    padding: 10px 5%;
+  }
+
+  .navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+}
+
+/* For mobile phones */
+@media (max-width: 600px) {
+  .home-content h1 {
+    font-size: 32px;
+  }
+
+  .home-content h3 {
+    font-size: 24px;
+  }
+
+  .home-content p {
+    font-size: 16px;
+  }
+
+  .btn-1, .btn-2 {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+
+  .img-box img, .about img {
+    width: 250px;
+  }
+
+  .projects img {
+    width: 90%;
+    height: auto;
+  }
+
+  .about-content h2, .about-content h3 {
+    font-size: 28px;
+  }
+
+  .about-content p {
+    font-size: 16px;
+  }
+
+  form {
+    width: 90%;
+    margin: 2em auto;
+  }
+
+  footer h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .input-box {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  svg {
+    width: 100px;
+    margin: 0 auto;
+  }
+}
